@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shubham Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to left, #8a8ace, #94e5e9);
+      color: #000;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 5px;
+    }
+
+    header h1 {
+      font-variant: small-caps;
+      margin-bottom: 5px;
+    }
+
+    nav.navebar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      background-color: #333;
+      padding: 10px;
+    }
+
+    nav.navebar a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: transform 0.2s ease, color 0.3s ease;
+    }
+
+    nav.navebar a:hover {
+      transform: translateY(-4px);
+      color: lightblue;
+    }
+
+    .section-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .sections {
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      flex: 1 1 300px;
+      max-width: 700px;
+      transition: transform 0.3s ease;
+    }
+
+    .sections:hover {
+      transform: translateY(-10px);
+    }
+
+    .sections h4 {
+      margin-bottom: 10px;
+    }
+
+    .sections span {
+      background-color: yellow;
+    }
+
+    .sections p {
+      text-align: justify;
+      margin-bottom: 10px;
+    }
+
+    ol, ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      font-size: 14px;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      nav.navebar {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .sections {
+        padding: 15px;
+        font-size: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SHUBHAM SONAWANE</h1>
+    <h2>AI Student</h2>
+    <nav class="navebar">
+      <a href="#about">About Me</a>
+      <a href="#Q">Qualification</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Mini Projects</a>
+      <a href="#C">Contact</a>
+    </nav>
+  </header>
+
+  <div class="section-container">
+    <section class="sections" id="about">
+      <h4><span><u>About Me :</u></span></h4>
+      <p><b>Hello!</b><br><br>
+        My name is <b>Shubham Sonawane</b>. I am from Nashik, Maharashtra. I have completed my 10th and 12th from the Maharashtra State Board and am currently pursuing my B.Tech from Zeal College of Engineering, Pune. I am a hardworking and curious person who loves to learn new things. My hobbies are playing cricket and watching movies. I am excited to grow and improve myself every day.
+      </p>
+    </section>
+
+    <section class="sections" id="Q">
+      <h4><span><u>Qualification :</u></span></h4>
+      <p>I am a B.Tech student in Artificial Intelligence and Data Science, having completed my first year. I recently completed an internship at Manasvi Tech, for which I received a certificate. I've gained basic skills in Python, HTML, CSS, JavaScript, and continue to learn and grow in the tech field.</p>
+    </section>
+
+    <section class="sections" id="skills">
+      <h4><span><u>Technical Skills :</u></span></h4>
+      <p>
+        Programming Languages: Python (basic)<br>
+        Web Technologies: HTML (basic)<br>
+        Tools & Platforms: VS Code, GitHub<br>
+        Others: Basic IT proficiency, Microsoft Office, Microsoft PowerPoint
+      </p>
+    </section>
+
+    <section class="sections" id="projects">
+      <h4><span><u>Mini Projects :</u></span></h4>
+      <ul>
+        <li><a href="#">1. Percentage Calculator</a></li>
+        <li><a href="#">2. Portfolio</a></li>
+      </ul>
+    </section>
+
+    <section class="sections" id="C">
+      <h4><span><u>Contact :</u></span></h4>
+      <ul>
+        <li>Email: <a href="mailto:shubhamp9307sonavane@gmail.com">shubhamp9307sonavane@gmail.com</a></li>
+        <li>GitHub: sonavaneshubh</li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/shubham-sonawane-4223b7332">Click to view profile</a></li>
+      </ul>
+    </section>
+  </div>
+
+  <footer>© 2025 Shubham Sonawane</footer>
+</body>
+</html>
